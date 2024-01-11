@@ -1,0 +1,99 @@
+body{
+    background-color: aliceblue;
+}
+.container-fluid{
+    background-color: white;
+    padding: 10px;
+}
+.slideImage{
+    animation:  15s slideImage infinite ;  
+    width: 100%;  
+}
+.slide-image{
+    display: flex;
+}
+@keyframes slideImage {
+    0%{
+        transform: translatex(0%);
+    }
+    25%{
+        transform: translatex(-100%);
+    }
+    50%{
+        transform: translatex(-200%);
+    }
+    75%{
+        transform: translatex(-300%);
+    }
+    100%{
+        transform: translatex(-400%);
+    }
+}
+.box{
+    width: 50vw;
+    height: 2.5vw;
+    margin-top: 6px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(206, 219, 234);
+}
+.search{
+    width: 33vw;
+    border: none;
+    background-color: rgba(206, 219, 234, 0.589);
+    margin-right: 190px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.pic{
+    height: 200px;
+}
+.electronics{
+    display: flex;
+    overflow-x: scroll;
+}
+.pic_b{
+    border: 0.1px solid rgba(0, 0, 0, 0.237);
+    margin: 10px ;
+    height: 40vh;
+    width: 50vw;
+    padding: 10px;
+}
+.picture{
+    margin: 10px ;
+    height: 17vh;
+}
+.Box{
+    margin: 10px;
+    border: 0.1px solid rgba(0, 0, 0, 0.237);
+}
+.div{
+    margin: 10px;
+    background-color: white;
+}
+.picture2{
+    height: 20vh;
+    margin: 10px;
+}
+.div2{
+    margin: 10px;
+    background-color: white;
+}
+.Box2{
+    margin: 10px;
+    border: 0.1px solid rgba(0, 0, 0, 0.237);
+}
+.footer{
+    background-color: black;
+    color: white;
+}
+ul{
+    
+    list-style: none;
+}
+
+@media screen and (max-width: 600px) {
+    
+}

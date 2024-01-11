@@ -1,0 +1,35 @@
+.imgbox{
+    height: 270px;
+            background-repeat: no-repeat;
+            width: 100%;
+            background-position: center;
+            background-size: cover;
+}
+.gap{
+    margin: 10px;
+    
+}
+.picg{
+    height: 198px;
+}
+.imgbox2 img{
+    height: 150px;
+}
+.span{
+    background-color: rgb(47, 154, 35);
+    border-radius: 7px;
+    padding: 0 5px;
+    font-size: 15px;
+    line-height: 5px;
+    color: white;
+    
+}
+.imgbox2 p{
+    font-size: 15px;
+}
+label{
+    font-size: 13PX;
+}
+span{
+    font-size: 12px;
+}
